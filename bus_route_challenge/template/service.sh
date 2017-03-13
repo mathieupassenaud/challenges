@@ -3,8 +3,9 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Keep the pwd in mind!
 # Example: RUN="java -jar $DIR/target/magic.jar"
-RUN=
-NAME=
+
+RUN="java -jar /$DIR/../target/busroutechallenge-0.0.1-SNAPSHOT.jar"
+NAME=my-awesome-bus-route-service
 
 DATA_FILE=$2
 
