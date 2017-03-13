@@ -11,7 +11,7 @@ public class Main {
 		public static void main(String[] args) throws Exception {
 			
 			
-			new InputFileDecoder(args[1]);
+			new InputFileDecoder(args[0]);
 			
 	        ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
 	        context.setContextPath("/");
